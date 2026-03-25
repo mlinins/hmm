@@ -1,0 +1,118 @@
+            h1{
+                color:peachpuff;
+                font-size:600%;
+                text-align:center;
+            }
+            h2{
+                color:peachpuff;
+                font-size:250%;
+                text-align:left;
+            }
+            p{
+                color:papayawhip;
+                font-size:150%;
+            }
+            li{
+                color:papayawhip;
+                font-size:100%;
+            }
+            body{
+                background-color:burlywood;
+            }
+            .ing{
+                width:20%;
+                height:20%;
+            }
+
+            .header{
+                width: 100%;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color:white;
+                overflow-y: hidden;
+                padding-top:20px;
+                padding-left: 20px;
+            }
+            
+            .hpoga1{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 512px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            .hpoga1q{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 612px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            .hpoga1w{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 712px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            .hpoga1e{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 812px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            .hpoga1r{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 912px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            .hpoga1t{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 1012px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            
+            a:link{
+                color:white;
+                font-size:120%;
+                text-align:center;
+                text-decoration: none;
+            }
