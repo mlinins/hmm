@@ -109,6 +109,23 @@
                 padding-top:20px;
                 text-align: center;
             }
+            .hpoga1y{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 1112px;
+                background-color:papayawhip;
+                overflow-y: hidden;
+                padding-top:20px;
+                text-align: center;
+            }
+            /* Solid border */
+            .hr.solid {
+                border-top: 3px solid #bbb;
+            }
+
             
             a:link{
                 color:white;
