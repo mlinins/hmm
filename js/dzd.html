@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Gaidot dzimšanas dienu..</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div></div>
+        <hr class="solid">
+        <form>
+        <p>Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
+        <p>gads 
+            <input type="TEXT" onclick="datums.value=new Date();" name="gads" value="ievadi gadu" type="button">
+        </p>
+        <p>mēnesis 
+            <input type="TEXT" onclick="datums.value=new Date();" name="menesis" value="ievadi mēnesi" type="button">
+        </p>
+        <p>diena
+            <input type="TEXT" onclick="datums.value=new Date();" name="datums" value="ievadi datumu" type="button">
+        </p>          
+        <p>
+            <input type="button" id="poga" value="Aprēķināt dienu sakitu līdz dzimšanas dienai " name="poga" onclick="maksa()"><a
+        </p>       
+        <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
+        <p>Līdz svētkiem atlikušas
+            
+        </p>
+    </form>
+    </body>
+</html>
