@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Gaidot dzimšanas dienu..</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div></div>
+        <hr class="solid">
+        <form>
+        <p>Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
+        <p>gads 
+            <input type="TEXT" name="gads" type="button">
+        </p>
+        <p>mēnesis 
+            <input type="TEXT" name="menesis" type="button">
+        </p>
+        <p>diena
+            <input type="TEXT" name="datums" type="button">
+        </p>          
+        <p>
+            <input type="button" id="poga" onclick="dienas();" value="Aprēķināt dienu sakitu līdz dzimšanas dienai " name="poga"><a
+        </p>       
+        <p>Līdz svētkiem atlikušas
+            <input type="TEXT"  name="dienas" type="button">
+            dienas:))
+        </p>
+    </form>
+        <script>
+            function dienas(){
+              return rez.value=menesis.value*datums.value  
+            }
+            
+        </script>    
+    </body>
+</html>
